@@ -8,18 +8,22 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form class = "f">
+	<form  method="post">
    <label for="name"> Name </label>
 		<input type = "text" required="yes" id="name" placeholder="Name">
 		<br>
-		 <label for="gender"> Gender </label>
-		<input type = "radio" required="yes" id="gender_m , gender_f">
+      <label for="male">Gender</label>
+		 <input type="radio"  name="gender" value="male">
+      <label for="male">Male</label>
+
+      <input type="radio" id="gender_m , gender_f" name="gender" value="female">
+      <label for="female">Female</label>
 		<br>
 		 <label for="cars"> Car Brands </label>
 		<input type = "select" required="yes" id="cars" placeholder="--Please choose an option--">
 		<br>
 		 <label for="age"> Age </label>
-		<input type = "number" required="yes" id="age" placeholder="Name">
+		<input type = "number" required="yes" id="age" placeholder="Age">
 		<br>
 		 <label for="dob"> DOB </label>
 		<input type = "date" required="yes" id="dob" placeholder="Name">
